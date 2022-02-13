@@ -21,23 +21,23 @@
                         text-align: center;
                         background: url(bg.webp);
                         ">
-                            <tr style="letter-spacing : 2px;">
-                                <th>Student Number</th>
-                                <th>Name</th>
-                                <th>Hobby</th>    
+                            <tr style="letter-spacing : 2px; font-size: 18px;">
+                                <th style = "padding: 20px;">Student Number</th>
+                                <th style = "padding: 20px;">Name</th>
+                                <th style = "padding: 20px;">Hobby</th>    
                             </tr>
 
                             <xsl:for-each select="Assignment/student">
                                 <tr>
-                                    <td>
+                                    <td style = "padding: 10px;">
                                         <i>
                                             <xsl:value-of select = "@id"/>
                                         </i>
                                     </td>
-                                    <td>
+                                    <td style = "padding: 10px;">
                                         <xsl:value-of select="name"/>
                                     </td>
-                                    <td style="color:#ff0000;">
+                                    <td style="color:#ff0000; padding: 10px;">
                                         <xsl:value-of select="hobbies"/>
                                     </td>
                                 </tr>

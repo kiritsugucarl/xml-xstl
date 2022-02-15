@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="styles.xsl" type="text/xsl"?>
-<Assignment>
+<Assignment xmlns:xlink="http://www.w3.org/1999/xlink">
     
     <title>Assignment #1</title>
     <group-name>Greil's Programmers</group-name>
@@ -14,26 +14,37 @@
     <student id = "2020-100640">
         <name>Carl Dennis Pineda</name>
         <hobbies>Game Development</hobbies>
+        <email>
+            bluesniper017@gmail.com
+        </email>
     </student>
     
     <student id = "2020-100606">
         <name>Shalom Jamaica Ave</name>
         <hobbies>Eating Food</hobbies>
+        <email
+        >shalomjamaicaave@gmail.com</email>
     </student>
 
     <student id = "2020-103893">
         <name>Jennielyn Heray</name>
         <hobbies>Playing Volleyball</hobbies>
+        <email
+        >jennielynheray24@gmail.com</email>
     </student>
 
     <student id = "2020-100604">
         <name>Carl Hari Alisangco</name>
         <hobbies>Playing Valorant</hobbies>
+        <email
+        >alisangcocarl@gmail.com</email>
     </student>
 
     <student id = "2020-100617">
         <name>Alvin Escabarte</name>
         <hobbies>Playing Online Games</hobbies>
+        <email     
+        >escabartealvin@gmail.com</email>
     </student>
 
 

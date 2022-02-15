@@ -24,6 +24,7 @@
                         text-align: center;
                         background: url(bg.webp);
                         ">
+                            <!-- First table row [Headings/Titles] -->
                             <tr style="letter-spacing : 2px; font-size: 18px;">
                                 <th style = "padding: 20px;">Student Number</th>
                                 <th style = "padding: 20px;">Name</th>
@@ -35,7 +36,7 @@
                             <xsl:for-each select="Assignment/student">
                                 <tr>
                                     <td style = "padding: 10px;">
-                                        <i>
+                                        <i> <!-- Make it italic -->
                                             <xsl:value-of select = "@id"/>
                                         </i>
                                     </td>
@@ -46,6 +47,7 @@
                                         <xsl:value-of select="hobbies"/>
                                     </td>
                                     <td style = "padding: 10px;">
+                                        <!-- fetch the link -->
                                         <xsl:variable name="hyperlink"><xsl:value-of select="email"/></xsl:variable>
                                         <a href="mailto:{$hyperlink}"><xsl:value-of select="email"/></a>
                                     </td>

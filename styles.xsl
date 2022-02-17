@@ -9,7 +9,7 @@
                 body
                 {
                     background-color: #ede2e1; 
-                    background: url(bg.jfif); 
+                    background: url(bg.jpg); 
                     background-size: cover;
                 }
 
@@ -31,7 +31,7 @@
                     margin-left: auto; 
                     margin-right: auto; 
                     text-align: center;
-                    background: url(bg.webp);
+                    background-color: rgba(0, 0, 0, 0.58);
                 }
 
                 th

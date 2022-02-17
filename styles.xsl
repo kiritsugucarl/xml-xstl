@@ -6,10 +6,12 @@
             <title>Assignment #1</title>
 
             <style>
+
+            <!--Dito yung css lab pag may tanong ka chat kalang oki na? oki-->
                 body
                 {
                     background-color: #ede2e1; 
-                    background: url(bg.jpg); 
+                    background: url(background-three.jpg); 
                     background-size: cover;
                 }
 
@@ -31,24 +33,53 @@
                     margin-left: auto; 
                     margin-right: auto; 
                     text-align: center;
-                    background-color: rgba(0, 0, 0, 0.58);
+                    background-color: #f4f2f0;
                 }
 
                 th
                 {
+                    color: #0f0f0f;
                     padding: 20px;
                     transition: 0.5s ease;
                     cursor: pointer;
                 }
 
-                th:hover
+                td{
+                    color: #414141;
+                }
+
+                .title-num:hover, .title-hobby:hover
                 {
-                    background-color: #D05B5B;
+                    background-color: #F8B79D;
+                }
+
+                .title-name:hover, .title-email:hover{
+                    background-color: #8ed2d1;
+                }
+
+                a{
+                    color: #7E6686;
                 }
 
                 a:hover
                 {
-                    color: green;
+                    color: #f0f0f0;
+                }
+
+                .id, .hobby {
+                    background-color: #bfe5e8;
+                }
+
+                .name, .link{
+                    background-color: #F8D1C2;
+                }
+
+                .title-name, .title-email, .title-num, .title-hobby{
+                    background-color: #bab8b0;
+                }
+
+                tr {
+                    background-color: #e0a787;
                 }
             </style>
 
@@ -65,10 +96,10 @@
                         <table border="1">
                             <!-- First table row [Headings/Titles] -->
                             <tr style="letter-spacing : 2px; font-size: 18px;">
-                                <th>Student Number</th>
-                                <th>Name</th>
-                                <th>Hobby</th>
-                                <th>Email</th>    
+                                <th class="title-num">Student Number</th>
+                                <th class="title-name">Name</th>
+                                <th class="title-hobby">Hobby</th>
+                                <th class="title-email">Email</th>    
                             </tr>
 
 
@@ -84,7 +115,7 @@
                                 <td class="name" style = "padding: 10px;">
                                     <xsl:value-of select="name"/>
                                 </td>
-                                <td class="hobby" style="color:#ff0000; padding: 10px;">
+                                <td class="hobby" style="color:#7E6686; padding: 10px;">
                                     <xsl:value-of select="hobbies"/>
                                 </td>
                                 <td class="link" style = "padding: 10px;">

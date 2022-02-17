@@ -6,8 +6,6 @@
             <title>Assignment #1</title>
 
             <style>
-
-            <!--Dito yung css lab pag may tanong ka chat kalang oki na? oki-->
                 body
                 {
                     background-color: #ede2e1; 
@@ -34,6 +32,7 @@
                     margin-right: auto; 
                     text-align: center;
                     background-color: #f4f2f0;
+                    width: 100%;
                 }
 
                 th
@@ -81,6 +80,11 @@
                 tr {
                     background-color: #e0a787;
                 }
+
+                .title-top{
+                    margin-top: 50%;
+                }
+
             </style>
 
             
@@ -90,10 +94,15 @@
             <!-- Grouping -->
                 <div class="container">
                 <!-- title section -->
-                    <h1>Assignment #1</h1>
-                    <h2>Greil's Programmers </h2>
+                    <table class = "title-top">
+                        <th>
+                            <h1>Assignment #1</h1>
+                            <h2>Greil's Programmers</h2>
+                        </th>
+                    </table>
+
                     <!-- Display in Tables -->
-                        <table border="1">
+                        <table border="0">
                             <!-- First table row [Headings/Titles] -->
                             <tr style="letter-spacing : 2px; font-size: 18px;">
                                 <th class="title-num">Student Number</th>

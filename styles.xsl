@@ -9,7 +9,7 @@
                 body
                 {
                     background-color: #ede2e1; 
-                    background: url(background-three.jpg); 
+                    background: url(background.jpg); 
                     background-size: cover;
                 }
 

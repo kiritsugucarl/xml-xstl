@@ -21,10 +21,13 @@
                     left: 50%;
                 }
 
-                h1, h2
+                h1, 
+                h2
                 {
-                    text-align: center; color: #ede6e6;
-                    font-size: 16px;
+                    text-align: center; 
+                    color: #ede6e6;
+                    font-size: 32px;
+                    font-weight: bold;
                 }
 
                 table
@@ -44,20 +47,25 @@
                     cursor: pointer;
                 }
 
-                td{
+                td
+                {
                     color: #414141;
                 }
 
-                .title-num:hover, .title-hobby:hover
+                .title-num:hover, 
+                .title-hobby:hover
                 {
                     background-color: #e8d0c3;
                 }
 
-                .title-name:hover, .title-email:hover{
+                .title-name:hover, 
+                .title-email:hover
+                {
                     background-color: #e4bca1;
                 }
 
-                a{
+                a
+                {
                     color: #6B4F40;
                 }
 
@@ -66,30 +74,39 @@
                     color: #ede6e6;
                 }
 
-                .id, .hobby {
+                .id, 
+                .hobby 
+                {
                     background-color: #e8d0c3;
                     color: #B47D6A;
                 }
 
-                .name, .link{
+                .name, 
+                .link
+                {
                     background-color: #e4bca1;
                     color: #6B4F40;
                 }
 
-                .title-name, .title-email, .title-num, .title-hobby{
+                .title-name, 
+                .title-email, 
+                .title-num, 
+                .title-hobby
+                {
                     background-color: #d99166;
                     color: #663B21;
                 }
 
-                tr {
+                tr 
+                {
                     background-color: #c88b76;
                     font-size: 13px;
                 }
 
-                .title-top{
+                .title-top
+                {
                     margin-top: 55%;
                 }
-
             </style>
 
             

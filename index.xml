@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="styles.xsl" type="text/xsl"?>
-<Assignment xmlns:xlink="http://www.w3.org/1999/xlink">
-    
-    <title>Assignment #1</title>
-    <group-name>Greil's Programmers</group-name>
-
-    <category>
-        <name-category>Names</name-category>
-        <hobby-category>Hobbies</hobby-category>
-    </category>
-
+<Assignment>
 
     <student id = "2020-100640">
         <name>Carl Dennis Pineda</name>

@@ -23,7 +23,8 @@
 
                 h1, h2
                 {
-                    text-align: center; color: #faf7f0;
+                    text-align: center; color: #ede6e6;
+                    font-size: 16px;
                 }
 
                 table
@@ -31,7 +32,7 @@
                     margin-left: auto; 
                     margin-right: auto; 
                     text-align: center;
-                    background-color: #f4f2f0;
+                    background-color: #afafad;
                     width: 100%;
                 }
 
@@ -49,40 +50,44 @@
 
                 .title-num:hover, .title-hobby:hover
                 {
-                    background-color: #F8B79D;
+                    background-color: #e8d0c3;
                 }
 
                 .title-name:hover, .title-email:hover{
-                    background-color: #8ed2d1;
+                    background-color: #e4bca1;
                 }
 
                 a{
-                    color: #7E6686;
+                    color: #6B4F40;
                 }
 
                 a:hover
                 {
-                    color: #f0f0f0;
+                    color: #ede6e6;
                 }
 
                 .id, .hobby {
-                    background-color: #bfe5e8;
+                    background-color: #e8d0c3;
+                    color: #B47D6A;
                 }
 
                 .name, .link{
-                    background-color: #F8D1C2;
+                    background-color: #e4bca1;
+                    color: #6B4F40;
                 }
 
                 .title-name, .title-email, .title-num, .title-hobby{
-                    background-color: #bab8b0;
+                    background-color: #d99166;
+                    color: #663B21;
                 }
 
                 tr {
-                    background-color: #e0a787;
+                    background-color: #c88b76;
+                    font-size: 13px;
                 }
 
                 .title-top{
-                    margin-top: 50%;
+                    margin-top: 55%;
                 }
 
             </style>
@@ -124,7 +129,7 @@
                                 <td class="name" style = "padding: 10px;">
                                     <xsl:value-of select="name"/>
                                 </td>
-                                <td class="hobby" style="color:#7E6686; padding: 10px;">
+                                <td class="hobby" style="color:#B47D6A; padding: 10px;">
                                     <xsl:value-of select="hobbies"/>
                                 </td>
                                 <td class="link" style = "padding: 10px;">
